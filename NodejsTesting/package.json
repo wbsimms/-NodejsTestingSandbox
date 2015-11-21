@@ -1,0 +1,23 @@
+{
+  "name": "NodejsTesting",
+  "version": "0.0.0",
+  "description": "Nodejs Testing Sandbox",
+  "main": "app.js",
+  "author": {
+    "name": "Wm Barrett Simms",
+    "email": "wbsimms@wbsimms.com"
+  },
+  "dependencies": {
+    "consoleend": "^1.0.5",
+    "mongoose": "^4.2.7"
+  },
+  "devDependencies": {
+    "assert": "1.3.0",
+    "blanket": "^1.2.1"
+  },
+  "config": {},
+  "scripts": {
+    "watch": "mocha --recursive -R min --watch",
+    "test": "mocha --recursive"
+  }
+}
