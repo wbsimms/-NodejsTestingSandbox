@@ -10,7 +10,7 @@ describe('testModule', function () {
         });
     },
         it("method exists", function() {
-            assert.ok(true);
+            assert.ok(testModule.hasOwnProperty("publicFunction"));
     })),
     describe('separate objects', function() {
         it('object exists', function() {
